@@ -3,7 +3,7 @@ import time
 from getmac import get_mac_address as gma
 import netifaces
 
-target_ip = "192.168.1.230"
+target_ip = "the computer you want to spoof"
 
 gws = netifaces.gateways()
 gateway_ip = gws['default'][netifaces.AF_INET][0]  # get the gateway's ip automatically
